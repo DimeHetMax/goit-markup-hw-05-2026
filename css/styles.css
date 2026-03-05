@@ -390,10 +390,7 @@ textarea {
 .footer-text {
   color: var(--cloud);
 }
-.footer-content-wrap{
-  display: flex;
-  align-items: baseline;
-}
+
 .footer-wrapper {
   display: flex;
   align-items: baseline;
