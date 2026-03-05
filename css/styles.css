@@ -393,7 +393,6 @@ textarea {
 .footer-content-wrap{
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 .footer-wrapper {
   display: flex;
@@ -423,6 +422,7 @@ textarea {
 }
 .footer-form-wrapper {
   max-width: 453px;
+  margin-left: auto;
 }
 .footer-form-wrapper p {
   margin-bottom: 16px;
