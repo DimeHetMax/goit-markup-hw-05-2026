@@ -390,15 +390,19 @@ textarea {
 .footer-text {
   color: var(--cloud);
 }
-.footer-wrapper {
+.footer-content-wrap{
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
   /* gap: 120px; */
 }
 .footer-text-left {
   max-width: 264px;
-  /* margin-right: 120px; */
+  margin-right: 120px;
 }
 /* socials footer */
 .footer-socials {
@@ -446,10 +450,10 @@ textarea {
   margin-right: 24px;
 
   outline: none;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form input:focus {
-  border: 1px solid var(--green);
+  border-color: var(--green);
 }
 .footer-form input::placeholder {
   /* font-family: var(--font-family); */
@@ -553,10 +557,10 @@ textarea {
   border: 1px solid var(--navy-blue-modal);
   border-radius: 4px;
   outline: none;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form .modal-input:focus {
-  border: 1px solid var(--iris);
+  border-color: var(--iris);
 }
 .modal-input:focus + .modal-svg {
   fill: var(--iris);
@@ -581,10 +585,10 @@ textarea {
   margin-top: 4px;
   margin-bottom: 16px;
   outline: none;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form textarea:focus {
-  border: 1px solid var(--iris);
+  border-color: var(--iris);
 }
 .modal-form textarea::placeholder {
   font-family: var(--font-family);
